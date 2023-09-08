@@ -1,7 +1,7 @@
 # adv-net-rl
 Code repository for studying the threat of adversarial policies against defensive RL agents for network security.
 
-Running this code requires CybORG version 1.2 to be installed. You can find the documentation for the environment code at [here.](https://github.com/cage-challenge/CybORG/tree/cage-challenge-1)
+Running this code requires CybORG version 1.2 to be installed. You can find the documentation for the environment code [here.](https://github.com/cage-challenge/CybORG/tree/cage-challenge-1)
 
 Copying the agents included in the `agents/` directory of this repo into the `Agents/` directory of the CybORG installation will enable the existing agents to be loaded into the environment. 
 
