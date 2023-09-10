@@ -3,7 +3,7 @@ Code repository for studying the threat of adversarial policies against defensiv
 
 Running this code requires CybORG version 1.2 to be installed. You can find the documentation for the environment code [here.](https://github.com/cage-challenge/CybORG/tree/cage-challenge-1)
 
-Copying the agents included in the `agents/` directory of this repo into the `Agents/` directory of the CybORG installation will should provide the extended framework to load victim agents against which you may train adversarial policies as well as for evaluation.
+Copying the agents included in the `agents/` directory of this repo into the `SimpleAgents/` directory of the CybORG installation will should provide the extended framework to load victim agents against which you may train adversarial policies as well as for evaluation.
 
 Running the scripts in `training/` will train red agents that will learn adversarial policies against RL defence agents. You must specify the victim in the ```CybORGAgent``` class in the training script. Separate scripts exist to train a red agent with PPO with Curiosity, PPO or DDQN.
 
